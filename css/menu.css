@@ -1,0 +1,47 @@
+.menu{
+    max-width: var(--width);
+    margin: 2rem  0 2rem auto;
+    background-color: var(--background-green);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;;
+
+
+}
+
+.menu > a{
+    color: var(--color-white);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.botão{
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.botão > a{
+    color: #814813;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    font-size: 14px;
+
+}
+
+.botão > span{
+    color: #814813;
+}

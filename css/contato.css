@@ -1,0 +1,28 @@
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.contato_titulo > h3{
+    color: #565756;
+    font-family: Playfair Display SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-left: 11%;
+    padding-bottom: 50px;
+}
+
+.contato_texto > p{
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+mapa > p{
+    margin-left: 32px;
+}

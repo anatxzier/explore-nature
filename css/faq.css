@@ -1,0 +1,79 @@
+.faq{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 11%;
+    padding-bottom: 30px;
+
+}
+
+.faq > h2{
+    color: #565756;
+    font-family: Playfair Display SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+
+}
+
+.titulos_faq{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    margin-left: 11%;
+    
+
+}
+
+.titulos_faq > h3{
+    color: #814813;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textos_faq{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    margin-left: 11%;
+    max-width: 1200px;
+}
+.textos_faq > p{
+    color: #626262;
+    font-family: Poppins;
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.faq dt{
+    font-size: 1.5rem;
+    color:#814813;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #D8D8D8;
+    cursor: pointer;
+}
+
+faq dt ::after{
+    content: '\25BC';
+    font-size: 0.985rem;
+    padding: 10px;
+}
+
+faq dd{
+    font-size: 1.1rem;
+    color: #626262;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
