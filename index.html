@@ -11,45 +11,69 @@
 </head>
 
 <body>
-    <header class="menu">
-        <span class="material-symbols-outlined">
-            eco
-        </span>
-        <a href="">Natureza</a>
-        <span class="material-symbols-outlined">
-            quiz
-        </span>
-        <a href="">FAQ</a>
-        <span class="material-symbols-outlined">
-            contact_support
-        </span>
-        <a href>Contato</a>
 
-        <div class="botão">
-            <span class="material-symbols-outlined">
-                account_circle
-            </span>
-            <a href="">Login</a>
-        </div>
+    <header class="menu2">
+        <nav class="menu1" id="menuicone">
+            <button id="btn">
+                MENU
+            </button>
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+        </nav>
+
+        <ul class="conteudo-menu js-list" id="conteudo-menu">
+            <li>
+                <span class="material-symbols-outlined">eco</span>
+                <a href="">Natureza</a>
+            </li>
+
+            <li>
+                <div class="icone">
+                    <span class="material-symbols-outlined">quiz</span>
+                </div>
+                <a href="">FAQ</a>
+            </li>
+
+            <li>
+                <div class="icone">
+                    <span class="material-symbols-outlined">contact_support</span>
+                </div>
+                <a href>Contato</a>
+            </li>
+
+            <li>
+                <div class="botão">
+                    <div class="icone">
+                        <span class="material-symbols-outlined">account_circle</span>
+                    </div>
+                    <a href="">Login</a>
+                </div>
+            </li>
+        </ul>
     </header>
 
     <div class="título">
         <h1>EXPLORE A NATUREZA!🌳</h1>
     </div>
     <div class="home">
-        <aside>
+        <aside class = "imgs js-img">
             <img src="img/natureza.jpg">
             <img src="img/praias.jpg">
             <img src="img/montanhas.jpg">
             <img src="img/Florestas.jpg">
         </aside>
-        <div class="textos">
+        <div class="textos js-conteudo">
+            <section class="active">
+
             <div class="titulos_home">
                 <span class="material-symbols-outlined">
                     eco
                 </span>
                 <h3>NATUREZA:</h3>
             </div>
+            
             <div class="textos_home">
                 <p>
                     Explorar a natureza é uma atividade incrível que pode proporcionar uma série de benefícios
@@ -65,6 +89,8 @@
                     ajudamos a proteger esse ambiente valioso para as gerações futuras.</p>
                 </p>
             </div>
+            </section>
+            <section>
             <div class="titulos_home">
                 <span class="material-symbols-outlined">
                     kitesurfing
@@ -90,12 +116,15 @@
 
                 </p>
             </div>
+            </section>
+            <section>
             <div class="titulos_home">
                 <span class="material-symbols-outlined">
                     landscape
                 </span>
                 <h3>MONTANHAS:</h3>
             </div>
+    
             <div class="textos_home">
                 <p>
                     Assim como as praias, as montanhas também são um exemplo maravilhoso da natureza que
@@ -111,6 +140,9 @@
 
                 </p>
             </div>
+            </section>
+            <section>
+                
             <div class="titulos_home">
                 <span class="material-symbols-outlined">
                     forest
@@ -135,103 +167,86 @@
 
                 </p>
             </div>
+            </section>
+        </div>
         </div>
     </div>
-
-    <section>
-        <div class="faq">
-            <h2>FAQ💭..........</h2>
-        </div>
-        <div class="titulos_faq">
-            <h3>Por que é importante explorar a natureza?▼ </h3>
-            <div class="linha"></div>
-            
-
+    <section class="FAQ">
+        <nav class="titulo">FAQ💬..........</nav>
+        <div class="caixa2 js-faq">
+            <section>
+            <nav class="titulo js-titulo">Por que é importante explorar a natureza?<span id="seta">▼</span></nav>
+            <div>Explorar a natureza é importante por diversos motivos. Isso nos permite reconectar com o meio ambiente,
+                relaxar, reduzir o estresse,
+                obter benefícios para a saúde mental e física, aprender sobre a biodiversidade e desenvolver um maior
+                senso de apreciação e
+                respeito pela natureza.</div>
+            </section>
+            <section>
+            <nav>Quais são os benefícios de explorar as montanhas? <span>▼</span></nav>
+            <div>Explorar as montanhas oferece uma série de benefícios. Além da oportunidade de desfrutar de vistas
+                deslumbrantes, caminhadas
+                em montanhas podem melhorar a aptidão física, fortalecer os músculos, aumentar a resistência, melhorar a
+                circulação sanguínea
+                e proporcionar um senso de conquista pessoal.</div>
+            </section>
+            <section>
+            <nav>O que posso fazer para me preparar antes de explorar uma montanha? <span>▼</span></nav>
+            <div>Antes de explorar uma montanha, é importante fazer algumas preparações. Verifique as condições
+                meteorológicas, pesquise sobre
+                a trilha que pretende percorrer, planeje o tempo necessário para a caminhada, verifique se possui o
+                equipamento adequado
+                (botas, roupas adequadas, suprimentos, etc.), informe-se sobre os regulamentos locais e deixe seu
+                itinerário com alguém de
+                confiança.</div>
+            </section>
+            <section>
+            <nav>Quais são os principais cuidados ao explorar montanhas? <span>▼</span></nav>
+            <div>Ao explorar montanhas, é essencial ter alguns cuidados. Preste atenção às condições do tempo, leve água
+                e alimentos suficientes,
+                esteja ciente dos sinais de altitude e desidratação, evite caminhar sozinho(a), siga as trilhas
+                marcadas, evite se aproximar de
+                penhascos perigosos e esteja preparado(a) para lidar com situações de emergência.</div>
+            </section>
+            <section>
+            <nav>Quais são os benefícios de explorar praias? <span>▼</span></nav>
+            <div>Explorar praias pode ser extremamente gratificante. Além de ser um local relaxante, as praias oferecem
+                a oportunidade de nadar,
+                praticar esportes aquáticos, fazer caminhadas na areia, desfrutar do sol e do mar, fortalecer os
+                músculos com atividades físicas e
+                relaxar a mente ao ouvir o som das ondas.</div>
+            </section>
+            <section>
+            <nav>O que devo levar ao explorar uma praia? <span>▼</span></nav>
+            <div>Ao explorar uma praia, é útil levar alguns itens essenciais. Isso inclui protetor solar, chapéu, óculos
+                de sol, toalhas, roupas de banho,
+                água potável, lanches, cadeiras de praia ou toalhas de praia, brinquedos de praia (se for o caso), e uma
+                sacola para guardar o lixo
+                e manter a praia limpa.</div>
+            </section>
+            <section>
+            <nav>Quais são os principais cuidados ao explorar praias? <span>▼</span></nav>
+            <div>Enquanto explora praias, é importante tomar alguns cuidados. Esteja atento(a) às condições do mar, como
+                correntezas ou ondas
+                fortes, evite nadar sozinho(a) e sempre siga as instruções dos salva-vidas locais. Além disso, lembre-se
+                de respeitar o ambiente,
+                não deixando lixo na praia e não perturbando a fauna e a flora locais.</div>
+            </section>
+            <section>
+            <nav>Quais são os benefícios de explorar florestas? <span>▼</span></nav>
+            <div>Explorar florestas oferece uma série de benefícios. Além da oportunidade de estar imerso(a) em um
+                ambiente natural exuberante,
+                as florestas permitem que você respire ar puro, experimente uma sensação de tranquilidade, observe a
+                vida selvagem, aprenda
+                sobre a flora e a fauna locais e desfrute de atividades como caminhadas, acampamentos e piqueniques.
             </div>
-        </div>
-        <div class="textos_faq">
-            <p>Explorar a natureza é importante por diversos motivos. Isso nos permite reconectar com o meio ambiente, relaxar, reduzir o estresse,
-obter benefícios para a saúde mental e física, aprender sobre a biodiversidade e desenvolver um maior senso de apreciação e
-respeito pela natureza.</p>
-        </div>
-
-        <div class="titulos_faq">
-            <h3>Quais são os benefícios de explorar as montanhas?▼</h3>
-            <div class="linha"></div>
-        </div>
-        <div class="textos_faq">
-            <p>Explorar as montanhas oferece uma série de benefícios. Além da oportunidade de desfrutar de vistas deslumbrantes, caminhadas
-                em montanhas podem melhorar a aptidão física, fortalecer os músculos, aumentar a resistência, melhorar a circulação sanguínea
-                e proporcionar um senso de conquista pessoal.</p>
-        </div>
-
-        <div class="titulos_faq">
-            <h3>O que posso fazer para me preparar antes de explorar uma montanha?▼ </h3>
-            <div class="linha"></div>
-        </div>
-        <div class="textos_faq">
-            <p>Antes de explorar uma montanha, é importante fazer algumas preparações. Verifique as condições meteorológicas, pesquise sobre
-                a trilha que pretende percorrer, planeje o tempo necessário para a caminhada, verifique se possui o equipamento adequado
-                (botas, roupas adequadas, suprimentos, etc.), informe-se sobre os regulamentos locais e deixe seu itinerário com alguém de
-                confiança.</p>
-        </div>
-
-        <div class="titulos_faq">
-            <h3>Quais são os principais cuidados ao explorar montanhas?▼ </h3>
-            <div class="linha"></div>
-        </div>
-        <div class="textos_faq">
-            <p>Ao explorar montanhas, é essencial ter alguns cuidados. Preste atenção às condições do tempo, leve água e alimentos suficientes,
-                esteja ciente dos sinais de altitude e desidratação, evite caminhar sozinho(a), siga as trilhas marcadas, evite se aproximar de
-                penhascos perigosos e esteja preparado(a) para lidar com situações de emergência.</p>
-        </div>
-
-        <div class="titulos_faq">
-            <h3>Quais são os benefícios de explorar praias?▼ </h3>
-            <div class="linha"></div>
-        </div>
-        <div class="textos_faq">
-            <p>Explorar praias pode ser extremamente gratificante. Além de ser um local relaxante, as praias oferecem a oportunidade de nadar,
-                praticar esportes aquáticos, fazer caminhadas na areia, desfrutar do sol e do mar, fortalecer os músculos com atividades físicas e
-                relaxar a mente ao ouvir o som das ondas.</p>
-        </div>
-
-        <div class="titulos_faq">
-            <h3>O que devo levar ao explorar uma praia?▼ </h3>
-            <div class="linha"></div>
-        </div>
-        <div class="textos_faq">
-            <p>Ao explorar uma praia, é útil levar alguns itens essenciais. Isso inclui protetor solar, chapéu, óculos de sol, toalhas, roupas de banho,
-                água potável, lanches, cadeiras de praia ou toalhas de praia, brinquedos de praia (se for o caso), e uma sacola para guardar o lixo
-                e manter a praia limpa.</p>
-        </div>
-                <div class="titulos_faq">
-                    <h3>Quais são os principais cuidados ao explorar praias?▼ </h3>
-                    <div class="linha"></div>
-                </div>
-                <div class="textos_faq">
-                    <p>Enquanto explora praias, é importante tomar alguns cuidados. Esteja atento(a) às condições do mar, como correntezas ou ondas
-                        fortes, evite nadar sozinho(a) e sempre siga as instruções dos salva-vidas locais. Além disso, lembre-se de respeitar o ambiente,
-                        não deixando lixo na praia e não perturbando a fauna e a flora locais.</p>
-                </div>
-                        <div class="titulos_faq">
-                            <h3>Quais são os benefícios de explorar florestas?▼ </h3>
-                            <div class="linha"></div>
-                        </div>
-                        
-                        <div class="textos_faq">
-                            <p>Explorar florestas oferece uma série de benefícios. Além da oportunidade de estar imerso(a) em um ambiente natural exuberante,
-                                as florestas permitem que você respire ar puro, experimente uma sensação de tranquilidade, observe a vida selvagem, aprenda
-                                sobre a flora e a fauna locais e desfrute de atividades como caminhadas, acampamentos e piqueniques.</p>
-                        </div>
-                                <div class="titulos_faq">
-                                    <h3>O que devo levar ao explorar uma floresta?</h3>               
-                                    <div class="linha"></div>
-                                </div>
-                                <div class="titulos_faq">
-                                    <h3>Quais são os principais cuidados ao explorar florestas?</h3>
-                                    <div class="linha"></div>
-                                </div>
+            </section>
+            <section>
+            <nav>O que devo levar ao explorar uma floresta? <span>▼</span></nav>
+            </section>
+            <section>
+            <nav>Quais são os principais cuidados ao explorar florestas? <span>▼</span></nav>
+            </section>
         </div>
     </section>
 
@@ -251,10 +266,15 @@ respeito pela natureza.</p>
 
         </div>
     </section>
-
     <footer>
         <p>© 2023 - Todos os direitos reservados</p>
     </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/home.js"></script>
+
 
 
 

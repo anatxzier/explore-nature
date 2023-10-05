@@ -1,47 +1,151 @@
-.menu{
-    max-width: var(--width);
-    margin: 2rem  0 2rem auto;
-    background-color: var(--background-green);
-    color: var(--color-white);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 15px;;
-
-
+  *{
+    margin:0;
+    padding: 0;
+    border: 0;
+    outline:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-.menu > a{
-    color: var(--color-white);
-    margin-left: 5px;
-    margin-right: 5px;
+
+.menu2 nav{
+    display: none;
 }
 
-.botão{
-    background-color: white;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 5px;
+@media screen and (min-width: 768px) {
+    .conteudo-menu{
+        max-width: var(--width);
+        margin: 2rem  0 2rem auto;
+        background-color: var(--background-green);
+        color: var(--color-white);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 15px;;
+    
+    
+    }
+
+    .conteudo-menu > a{
+        color: var(--color-white);
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .botão{
+        background-color: white;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 5px;
+    }
+    
+    .botão > a{
+        color: #814813;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        font-size: 14px;
+    
+    }
+    
+    .botão > span{
+        color: #814813;
+    }
+    
+    
+    
 }
 
-.botão > a{
-    color: #814813;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.6px;
-    font-size: 14px;
+@media screen and (max-width: 768px){
+    .menu2 nav{
+        display: flex;
+    }
+    .menu1{
+        display: flex;
+        background-color: #111;
+        border-radius: 8px;
+        padding: 10px;
+        align-items: center;
+        max-width: fit-content;
+        color: #ffffff;
+        margin: 3%;
 
-}
+    
+    }
+    
+    .menu1 span{
+        display: flex;
+        align-items: center;
+    }
 
-.botão > span{
-    color: #814813;
+    .conteudo-menu{
+        background-color: var(--background-green);
+        color: var(--color-white);
+        padding: 15px;;
+
+    
+    
+    }
+
+
+    .conteudo-menu > a{
+        color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+
+
+        }
+
+
+
+
+    .botão{
+        background-color: white;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 5px;
+        max-width: fit-content;
+    }
+    
+    .botão > a{
+        color: #814813;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        font-size: 14px;
+    
+    }
+    
+    .botão > span{
+        color: #814813;
+    }
+    
+    
+
+
+
+
+
+
+    
 }
