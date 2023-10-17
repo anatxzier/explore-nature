@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     margin-left: 12%;
     margin-bottom: 30px;
+
 }
 .título > h1{
     color: #565756;
@@ -89,4 +90,29 @@ aside img{
 
 .js-conteudo section.active{
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+    aside{
+        display: none;
+    }
+
+    .js-conteudo section{
+        display: block;
+    
+    }
+    
+    .título h1{
+        font-size: 43px;
+    }
+
+    .textos_home{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 70%;
+        margin-bottom: 15px;
+    }
+    
+
 }

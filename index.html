@@ -11,48 +11,76 @@
 </head>
 
 <body>
+<main class="conteudo=total">
 
-    <header class="menu2">
-        <nav class="menu1" id="menuicone">
-            <button id="btn">
+    <header class="menu">
+        <span class="material-symbols-outlined">
+            eco
+        </span>
+        <a href="">Natureza</a>
+        <span class="material-symbols-outlined">
+            quiz
+        </span>
+        <a href="">FAQ</a>
+        <span class="material-symbols-outlined">
+            contact_support
+        </span>
+        <a href>Contato</a>
+
+        <div class="botão">
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+            <a href="">Login</a>
+        </div>
+    </header>
+
+    <div class="menu-mobile">
+        
+        <div class="menu-icone"  >
                 MENU
-            </button>
                 <span class="material-symbols-outlined">
                     menu
                 </span>
-            </div>
-        </nav>
 
-        <ul class="conteudo-menu js-list" id="conteudo-menu">
-            <li>
-                <span class="material-symbols-outlined">eco</span>
-                <a href="">Natureza</a>
-            </li>
+        </div>
 
-            <li>
-                <div class="icone">
-                    <span class="material-symbols-outlined">quiz</span>
-                </div>
-                <a href="">FAQ</a>
-            </li>
+        <nav class="conteudo-menuMobile">
+        
+        <div>
+        <span class="material-symbols-outlined">
+            eco
+        </span>
+        <a href="">Natureza</a>
+        </div>
 
-            <li>
-                <div class="icone">
-                    <span class="material-symbols-outlined">contact_support</span>
-                </div>
-                <a href>Contato</a>
-            </li>
+        <div>
+        <span class="material-symbols-outlined">
+            quiz
+        </span>
+        <a href="">FAQ</a>
+        </div>
 
-            <li>
-                <div class="botão">
-                    <div class="icone">
-                        <span class="material-symbols-outlined">account_circle</span>
-                    </div>
-                    <a href="">Login</a>
-                </div>
-            </li>
-        </ul>
-    </header>
+        <div>
+        <span class="material-symbols-outlined">
+            contact_support
+        </span>
+        <a href>Contato</a>
+        </div>
+
+        <div>
+        <div class="botão">
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+            <a href="">Login</a>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </nav>
+
 
     <div class="título">
         <h1>EXPLORE A NATUREZA!🌳</h1>
@@ -265,15 +293,33 @@
         </div>
 
         </div>
+
     </section>
+
     <footer>
         <p>© 2023 - Todos os direitos reservados</p>
     </footer>
+</main>
+    <div id= "modalid" class=" modal js-modal">
+        <span class="material-symbols-outlined modal-close">
+            close
+        </span>
+        <form class="modal-forms">
+            <h3>RECEBA NOTIFICAÇÕES:</h3>
+            <label for="">Email:</label>
+            <input name="email" type="email" placeholder="Insira seu email" required="">
+            <input type="submit" value="Enviar">
+        </form>
+        <div id="msg"></div>
+    </div>
+
 
     <script src="js/index.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/faq.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/modal.js"></script>
+
 
 
 

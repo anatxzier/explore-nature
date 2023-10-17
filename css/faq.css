@@ -34,3 +34,18 @@
     transform: rotate(180deg);
 }
 
+@media screen and (max-width: 768px) {
+    .FAQ > .titulo{
+        font-size: 32px;
+    }
+
+    .caixa2{
+        font-size: 15px;
+    }
+
+    .caixa2 > section nav{
+        font-size: 15px;
+        max-width: 70%;
+    }
+
+}

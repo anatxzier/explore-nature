@@ -26,3 +26,18 @@
 mapa > p{
     margin-left: 32px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .contato_titulo > h3{
+        font-size: 32px;
+    }
+
+    .contato_texto > p{
+        max-width: 70%;
+    }
+
+    mapa > p{
+        max-width: 70%;
+    }
+}
